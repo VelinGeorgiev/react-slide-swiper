@@ -7,7 +7,7 @@ import { IReactSlideSwiperState } from './IReactSlideSwiperState';
 import { ListItem } from '../ListItem';
 import Card from './Card/Card';
 
-const Swiper = require('swiper/dist/js/swiper');
+const Swiper = require('../../swiper/swiper.min');
 
 export default class ReactSlideSwiper extends React.Component<IReactSlideSwiperProps, IReactSlideSwiperState> {
 
